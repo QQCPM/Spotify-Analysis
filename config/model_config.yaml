@@ -1,0 +1,51 @@
+# Model Configuration for Cross-Cultural Music Recommendation Research
+
+# Matrix Factorization Parameters
+matrix_factorization:
+  n_factors: 50
+  learning_rate: 0.01
+  regularization: 0.1
+  temporal_weight: 0.05
+  max_iter: 1000
+  convergence_tolerance: 1e-6
+  early_stopping: true
+  patience: 10
+
+# Temporal Model Parameters
+temporal_model:
+  lstm_hidden_size: 128
+  lstm_num_layers: 2
+  dropout: 0.2
+  sequence_length: 20
+  batch_size: 32
+  learning_rate: 0.001
+
+# Cross-Cultural Analysis Parameters
+cultural_analysis:
+  vietnamese_threshold: 0.7
+  western_threshold: 0.7
+  bridge_song_threshold: 0.5
+  clustering_algorithm: "kmeans"
+  n_cultural_clusters: 5
+
+# Evaluation Parameters
+evaluation:
+  test_split: 0.15
+  validation_split: 0.15
+  time_aware_split: true
+  k_values: [5, 10, 20, 50]
+  cross_validation_folds: 5
+  
+# Research Parameters
+research:
+  significance_level: 0.05
+  effect_size_threshold: 0.5
+  bootstrap_samples: 10000
+  random_seed: 42
+
+# Data Processing Parameters
+data_processing:
+  min_interactions_per_user: 20
+  min_interactions_per_item: 5
+  max_missing_audio_features: 0.1
+  temporal_window_days: 30
