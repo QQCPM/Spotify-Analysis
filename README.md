@@ -64,7 +64,7 @@ jupyter lab
 # Follow the research workflow through all 5 notebooks
 ```
 
-## 📊 Research Methodology
+## Research Methodology
 
 This project follows rigorous research standards with:
 
@@ -74,7 +74,7 @@ This project follows rigorous research standards with:
 - **Reproducible results** with fixed random seeds and detailed logging
 - **Open-source research platform** for community validation
 
-## 🛠️ Development
+## Development
 
 ### Code Quality
 ```bash
@@ -98,7 +98,7 @@ flake8 src/ tests/
 4. **Phase 4**: Cross-Cultural Analysis - Bridge detection and causal inference
 5. **Phase 5**: Evaluation & Research - Comprehensive analysis and publication
 
-## 📚 Research Output
+## Research Output
 
 Expected deliverables:
 - **5 Research Notebooks**: Complete analysis workflow
@@ -106,14 +106,14 @@ Expected deliverables:
 - **Open-Source Framework**: Production-ready recommendation system
 - **Statistical Validation**: Rigorous hypothesis testing results
 
-## 🔗 Connection to World Models
+## Connection to World Models
 
 This research builds foundational understanding for World Models through:
 - **Latent Representations**: Matrix factorization as state space compression
 - **Temporal Dynamics**: Sequential preference modeling as action sequences
 - **Causal Reasoning**: Intervention analysis in preference formation
 
-## 📖 Documentation
+## Documentation
 
 - See `PROJECT_FRAMEWORK.md` for comprehensive technical documentation
 - Individual module documentation in `src/` directories
