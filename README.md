@@ -1,8 +1,8 @@
-# Cross-Cultural Music Recommendation Research System
+Music Recommendation Research System
 
 A research-quality music recommendation system analyzing cross-cultural preferences (Vietnamese + Western music) with sophisticated temporal modeling. This project serves as foundational research for World Models, focusing on latent representation learning, temporal dynamics, and causal inference.
 
-## 🎯 Research Objectives
+## Research Objectives
 
 - **Latent Space Analysis**: Discover interpretable factors driving cross-cultural music preferences
 - **Temporal Modeling**: Track and predict evolving musical tastes over time  
@@ -10,7 +10,7 @@ A research-quality music recommendation system analyzing cross-cultural preferen
 - **Causal Inference**: Establish causal relationships in preference formation and cultural adoption
 - **World Models Preparation**: Build foundational understanding of sequential latent representations
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 ├── PROJECT_FRAMEWORK.md     # Comprehensive project documentation
@@ -31,7 +31,7 @@ A research-quality music recommendation system analyzing cross-cultural preferen
 └── docs/                   # Documentation and research papers
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Environment Setup
 ```bash
@@ -119,7 +119,7 @@ This research builds foundational understanding for World Models through:
 - Individual module documentation in `src/` directories
 - Research methodology and findings in `notebooks/`
 
-## 🤝 Contributing
+## Contributing
 
 This is a research project. For questions or collaboration:
 1. Read the comprehensive `PROJECT_FRAMEWORK.md` 
@@ -127,7 +127,7 @@ This is a research project. For questions or collaboration:
 3. Check existing issues and testing framework
 4. Follow code quality standards (black, mypy, pytest)
 
-## 📄 License
+## License
 
 MIT License - See LICENSE file for details.
 
